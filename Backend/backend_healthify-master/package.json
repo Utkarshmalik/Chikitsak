@@ -1,0 +1,27 @@
+{
+    "name": "HeALTHIFY",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "start": "node app.js",
+        "dev": "env-cmd ./config/dev.env nodemon src/app.js"
+    },
+    "keywords": [],
+    "author": "",
+    "description": "",
+    "dependencies": {
+        "axios": "^0.19.0",
+        "bcrypt": "^3.0.6",
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "mongodb": "^3.2.7",
+        "mongoose": "^5.5.15",
+        "multer": "^1.4.1",
+        "nodemon": "^1.19.1",
+        "validator": "^11.0.0"
+    },
+    "devDependencies": {
+        "env-cmd": "^9.0.3"
+    }
+}
